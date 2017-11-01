@@ -1,0 +1,21 @@
+img {
+  height: auto;
+  /* padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 10%;
+  max-width: 50%; */
+}
+
+p {
+  color: red;
+}
+
+.banner-container {
+  min-height: 70vh;
+  background-image: url('../img/IMAGE_I_COBBLED_TOGETHER.png');
+  background-attachment: fixed;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
