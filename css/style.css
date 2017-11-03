@@ -1,0 +1,26 @@
+h4 {
+  text-align: center;
+}
+
+.banner {
+  width: 100%;
+  /* smaller but lower-res image */
+  /* background-image: url('../img/sameImageButSmaller.png'); */
+  /* higher-res but larger image */
+  background-image: url('../img/IMAGE_I_COBBLED_TOGETHER.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 31%;
+}
+
+/* affix class taken from w3 schools page
+   nav looks ugly without it */
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+/* .affix + .container-fluid {
+  padding-top: 70px;
+} */
