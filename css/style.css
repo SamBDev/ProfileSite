@@ -1,4 +1,8 @@
-h4 {
+h3 {
+  text-align: center;
+}
+
+p {
   text-align: center;
 }
 
@@ -21,6 +25,17 @@ h4 {
   z-index: 9999 !important;
 }
 
-/* .affix + .container-fluid {
-  padding-top: 70px;
-} */
+.aboutMe {
+  font-size: 20;
+}
+
+.sized-fa {
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+}
